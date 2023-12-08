@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application/>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Human Resources</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1059484_hr_human_resources</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_1059484_hr.human_resources_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2023-12-07 03:44:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8850e7cc47077510d7f652e1d16d430a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Human Resources</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Human Resources" source="x_1059484_hr">9e3c8e7747723510d7f652e1d16d4372</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resources">9e3c8e7747723510d7f652e1d16d4372</sys_scope>
+        <sys_update_name>sys_app_module_8850e7cc47077510d7f652e1d16d430a</sys_update_name>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2023-12-07 03:44:55</sys_updated_on>
+        <timeline_page/>
+        <title>Human Resources</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Human Resources">9e3c8e7747723510d7f652e1d16d4372</application>
+        <file_path/>
+        <instance_id>515879d2dbbe39d005ef17291396199e</instance_id>
+        <instance_name>dev230749</instance_name>
+        <name>sys_app_module_8850e7cc47077510d7f652e1d16d430a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application/><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Human Resources</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1059484_hr_human_resources</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_1059484_hr.human_resources_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>jahmellaw</sys_created_by><sys_created_on>2023-12-07 03:44:55</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8850e7cc47077510d7f652e1d16d430a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Human Resources</sys_name><sys_overrides/><sys_package display_value="Human Resources" source="x_1059484_hr">9e3c8e7747723510d7f652e1d16d4372</sys_package><sys_policy/><sys_scope display_value="Human Resources">9e3c8e7747723510d7f652e1d16d4372</sys_scope><sys_update_name>sys_app_module_8850e7cc47077510d7f652e1d16d430a</sys_update_name><sys_updated_by>jahmellaw</sys_updated_by><sys_updated_on>2023-12-07 03:44:55</sys_updated_on><timeline_page/><title>Human Resources</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-1045185585</payload_hash>
+        <record_name>Human Resources</record_name>
+        <reverted_from/>
+        <source>888dceb747723510d7f652e1d16d4315</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2023-12-07 03:48:44</sys_created_on>
+        <sys_id>7f21230047477510d7f652e1d16d43e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c426463650000001</sys_recorded_at>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2023-12-07 03:48:44</sys_updated_on>
+        <type>Module</type>
+        <update_guid>c050e7cc2b077510f41b894d837d800d</update_guid>
+        <update_guid_history>c050e7cc2b077510f41b894d837d800d:-599607402,c050e7cc2b077510f41b894d837d800d:-599607402</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Human Resources">13fb6b944707b510d7f652e1d16d43da</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2023-12-07 23:14:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>cf5dffbb09df498c9517e86aec11de24</sys_id>
+        <sys_metadata>8850e7cc47077510d7f652e1d16d430a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Human Resources</sys_name>
+        <sys_package display_value="Human Resources" source="x_1059484_hr">9e3c8e7747723510d7f652e1d16d4372</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Human Resources">9e3c8e7747723510d7f652e1d16d4372</sys_scope>
+        <sys_scope_delete display_value="">4ded03d3fa1a4ef8a652de353e64d990</sys_scope_delete>
+        <sys_update_name>sys_app_module_8850e7cc47077510d7f652e1d16d430a</sys_update_name>
+        <sys_update_version display_value="sys_app_module_8850e7cc47077510d7f652e1d16d430a">7f21230047477510d7f652e1d16d43e6</sys_update_version>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2023-12-07 23:14:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

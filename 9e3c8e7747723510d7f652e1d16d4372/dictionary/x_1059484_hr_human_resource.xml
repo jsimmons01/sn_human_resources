@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7f31278c47077510d7f652e1d16d43de" extends="task" label="Human Resource" max_length="40" name="x_1059484_hr_human_resource" type="collection"/>
+</database>
