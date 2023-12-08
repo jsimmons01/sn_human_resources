@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7f31278c47077510d7f652e1d16d43de" extends="task" label="Human Resource" max_length="40" name="x_1059484_hr_human_resource" type="collection">
+        <element attributes="encode_utf8=false" label="Requested for" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Source" max_length="40" name="source" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type" max_length="40" name="type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Benefits" sequence="0" value="benefits"/>
+                <element inactive_on_update="false" label="Confidential" sequence="1" value="confidential"/>
+                <element inactive_on_update="false" label="General HR" sequence="2" value="general hr"/>
+                <element inactive_on_update="false" label="Payroll" sequence="3" value="payroll"/>
+                <element inactive_on_update="false" label="Training" sequence="4" value="training"/>
+            </choice>
+        </element>
+    </element>
+</database>
