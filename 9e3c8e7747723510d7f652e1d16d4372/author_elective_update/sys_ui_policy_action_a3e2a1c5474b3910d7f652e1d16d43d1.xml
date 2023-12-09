@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>parent</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2023-12-09 21:11:15</sys_created_on>
+        <sys_id>a3e2a1c5474b3910d7f652e1d16d43d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>parent</sys_name>
+        <sys_package display_value="Human Resource" source="x_1059484_hr">9e3c8e7747723510d7f652e1d16d4372</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">9e3c8e7747723510d7f652e1d16d4372</sys_scope>
+        <sys_update_name>sys_ui_policy_action_a3e2a1c5474b3910d7f652e1d16d43d1</sys_update_name>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2023-12-09 21:11:15</sys_updated_on>
+        <table>x_1059484_hr_hr_task</table>
+        <ui_policy display_value="Show Closure Information Section if State is Closed">8602e905474b3910d7f652e1d16d438a</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Human Resource">9e3c8e7747723510d7f652e1d16d4372</application>
+        <file_path/>
+        <instance_id>515879d2dbbe39d005ef17291396199e</instance_id>
+        <instance_name>dev230749</instance_name>
+        <name>sys_ui_policy_action_a3e2a1c5474b3910d7f652e1d16d43d1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>parent</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>jahmellaw</sys_created_by><sys_created_on>2023-12-09 21:11:15</sys_created_on><sys_id>a3e2a1c5474b3910d7f652e1d16d43d1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>parent</sys_name><sys_package display_value="Human Resource" source="x_1059484_hr">9e3c8e7747723510d7f652e1d16d4372</sys_package><sys_policy/><sys_scope display_value="Human Resource">9e3c8e7747723510d7f652e1d16d4372</sys_scope><sys_update_name>sys_ui_policy_action_a3e2a1c5474b3910d7f652e1d16d43d1</sys_update_name><sys_updated_by>jahmellaw</sys_updated_by><sys_updated_on>2023-12-09 21:11:15</sys_updated_on><table>x_1059484_hr_hr_task</table><ui_policy display_value="Show Closure Information Section if State is Closed">8602e905474b3910d7f652e1d16d438a</ui_policy><visible>ignore</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>161933267</payload_hash>
+        <record_name>parent</record_name>
+        <reverted_from/>
+        <source>888dceb747723510d7f652e1d16d4315</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2023-12-09 21:11:15</sys_created_on>
+        <sys_id>aaf2ed85474b3910d7f652e1d16d43d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c506b8faa0000001</sys_recorded_at>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2023-12-09 21:11:15</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>eef2ed859f4b391096144d97bd059dd2</update_guid>
+        <update_guid_history>eef2ed859f4b391096144d97bd059dd2:161933267</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2023-12-09 21:13:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>211d87758ac44a798db16cca963760b9</sys_id>
+        <sys_metadata>a3e2a1c5474b3910d7f652e1d16d43d1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>parent</sys_name>
+        <sys_package display_value="Human Resource" source="x_1059484_hr">9e3c8e7747723510d7f652e1d16d4372</sys_package>
+        <sys_parent display_value="Show Closure Information Section if State is Closed">8602e905474b3910d7f652e1d16d438a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">9e3c8e7747723510d7f652e1d16d4372</sys_scope>
+        <sys_scope_delete display_value="">4ded03d3fa1a4ef8a652de353e64d990</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_a3e2a1c5474b3910d7f652e1d16d43d1</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_a3e2a1c5474b3910d7f652e1d16d43d1">aaf2ed85474b3910d7f652e1d16d43d3</sys_update_version>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2023-12-09 21:13:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
