@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="773f717c47cbf510d7f652e1d16d43de" sys_domain="global" table="x_1059484_hr_hr_task" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>jahmellaw</sys_created_by>
+            <sys_created_on>2023-12-09 04:36:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f33f717c47cbf510d7f652e1d16d43e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1059484_hr_hr_task" name="x_1059484_hr_hr_task" sys_domain="global" view="Default view">773f717c47cbf510d7f652e1d16d43de</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1059484_hr_hr_task" sys_domain="global" view="Default view">ee6df97847cbf510d7f652e1d16d4342</sys_ui_section>
+            <sys_updated_by>jahmellaw</sys_updated_by>
+            <sys_updated_on>2023-12-09 04:36:17</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>jahmellaw</sys_created_by>
+            <sys_created_on>2023-12-09 04:36:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>333f717c47cbf510d7f652e1d16d43e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1059484_hr_hr_task" name="x_1059484_hr_hr_task" sys_domain="global" view="Default view">773f717c47cbf510d7f652e1d16d43de</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_1059484_hr_hr_task" sys_domain="global" view="Default view">3f3f717c47cbf510d7f652e1d16d43dc</sys_ui_section>
+            <sys_updated_by>jahmellaw</sys_updated_by>
+            <sys_updated_on>2023-12-09 04:36:17</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>jahmellaw</sys_created_by>
+            <sys_created_on>2023-12-09 04:36:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bf3fb17c47cbf510d7f652e1d16d4323</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1059484_hr_hr_task" name="x_1059484_hr_hr_task" sys_domain="global" view="Default view">773f717c47cbf510d7f652e1d16d43de</sys_ui_form>
+            <sys_ui_section caption="Closure Information" display_value="Closure Information" name="x_1059484_hr_hr_task" sys_domain="global" view="Default view">b73f717c47cbf510d7f652e1d16d43dd</sys_ui_section>
+            <sys_updated_by>jahmellaw</sys_updated_by>
+            <sys_updated_on>2023-12-09 04:36:17</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1059484_hr_hr_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>jahmellaw</sys_created_by>
+            <sys_created_on>2023-12-09 04:36:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>773f717c47cbf510d7f652e1d16d43de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1059484_hr_hr_task</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Human Resource" source="x_1059484_hr">9e3c8e7747723510d7f652e1d16d4372</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Human Resource">9e3c8e7747723510d7f652e1d16d4372</sys_scope>
+            <sys_update_name>sys_ui_form_sections_773f717c47cbf510d7f652e1d16d43de</sys_update_name>
+            <sys_updated_by>jahmellaw</sys_updated_by>
+            <sys_updated_on>2023-12-09 04:36:16</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
