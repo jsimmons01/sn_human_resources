@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>close_notes</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2023-12-09 21:10:41</sys_created_on>
+        <sys_id>eac2ed85474b3910d7f652e1d16d43ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>close_notes</sys_name>
+        <sys_package display_value="Human Resource" source="x_1059484_hr">9e3c8e7747723510d7f652e1d16d4372</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">9e3c8e7747723510d7f652e1d16d4372</sys_scope>
+        <sys_update_name>sys_ui_policy_action_eac2ed85474b3910d7f652e1d16d43ca</sys_update_name>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2023-12-09 21:10:41</sys_updated_on>
+        <table>x_1059484_hr_hr_task</table>
+        <ui_policy display_value="Show Closure Information Section if State is Closed">8602e905474b3910d7f652e1d16d438a</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="DELETE">
+        <active>true</active>
+        <conditions/>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>Assignment Group</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2023-12-09 20:57:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f1df99c1474b3910d7f652e1d16d43f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assignment Group</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Human Resource" source="x_1059484_hr">9e3c8e7747723510d7f652e1d16d4372</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">9e3c8e7747723510d7f652e1d16d4372</sys_scope>
+        <sys_update_name>sys_ui_policy_f1df99c1474b3910d7f652e1d16d43f0</sys_update_name>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2023-12-09 20:57:52</sys_updated_on>
+        <table>x_1059484_hr_hr_task</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Human Resource">9e3c8e7747723510d7f652e1d16d4372</application>
+        <file_path/>
+        <instance_id>515879d2dbbe39d005ef17291396199e</instance_id>
+        <instance_name>dev230749</instance_name>
+        <name>sys_ui_policy_f1df99c1474b3910d7f652e1d16d43f0</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions/&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Assignment Group&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;jahmellaw&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-09 20:57:52&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;f1df99c1474b3910d7f652e1d16d43f0&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Assignment Group&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Human Resource" source="x_1059484_hr"&gt;9e3c8e7747723510d7f652e1d16d4372&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Human Resource"&gt;9e3c8e7747723510d7f652e1d16d4372&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_f1df99c1474b3910d7f652e1d16d43f0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;jahmellaw&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-09 20:57:52&lt;/sys_updated_on&gt;&lt;table&gt;x_1059484_hr_hr_task&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>210248410</payload_hash>
+        <record_name>Assignment Group</record_name>
+        <reverted_from/>
+        <source>888dceb747723510d7f652e1d16d4315</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2023-12-09 20:57:52</sys_created_on>
+        <sys_id>a6ef5dc1474b3910d7f652e1d16d4321</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c505f4f1a0000001</sys_recorded_at>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2023-12-09 20:57:52</sys_updated_on>
+        <type>UI Policy</type>
+        <update_guid>eaef5dc1804b391050fd45c53f52b120</update_guid>
+        <update_guid_history>eaef5dc1804b391050fd45c53f52b120:210248410</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2023-12-09 21:01:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy">sys_ui_policy</sys_db_object>
+        <sys_id>13ec0e60347a477492652c00e172a501</sys_id>
+        <sys_metadata>f1df99c1474b3910d7f652e1d16d43f0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assignment Group</sys_name>
+        <sys_package display_value="Human Resource" source="x_1059484_hr">9e3c8e7747723510d7f652e1d16d4372</sys_package>
+        <sys_parent display_value="HR Task">a8acfd7847cbf510d7f652e1d16d43dd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">9e3c8e7747723510d7f652e1d16d4372</sys_scope>
+        <sys_scope_delete display_value="">4ded03d3fa1a4ef8a652de353e64d990</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_f1df99c1474b3910d7f652e1d16d43f0</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_f1df99c1474b3910d7f652e1d16d43f0">a6ef5dc1474b3910d7f652e1d16d4321</sys_update_version>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2023-12-09 21:01:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

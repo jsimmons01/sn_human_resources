@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="5847ca74470ff510d7f652e1d16d4332" extends="task" label="My New Test Table" max_length="40" name="x_1059484_hr_my_new_test_table" type="collection"/>
-</database>

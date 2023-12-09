@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>My New Test Table</name>
+        <order>100</order>
+        <roles>x_1059484_hr.hr_admin</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2023-12-09 05:11:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>da570e74470ff510d7f652e1d16d43b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My New Test Table</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Human Resource" source="x_1059484_hr">9e3c8e7747723510d7f652e1d16d4372</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">9e3c8e7747723510d7f652e1d16d4372</sys_scope>
+        <sys_update_name>sys_app_application_da570e74470ff510d7f652e1d16d43b4</sys_update_name>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2023-12-09 05:11:41</sys_updated_on>
+        <title>My New Test Table</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Human Resource">9e3c8e7747723510d7f652e1d16d4372</application>
+        <file_path/>
+        <instance_id>515879d2dbbe39d005ef17291396199e</instance_id>
+        <instance_name>dev230749</instance_name>
+        <name>sys_app_application_da570e74470ff510d7f652e1d16d43b4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>My New Test Table</name><order>100</order><roles>x_1059484_hr.hr_admin</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>jahmellaw</sys_created_by><sys_created_on>2023-12-09 05:11:41</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>da570e74470ff510d7f652e1d16d43b4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>My New Test Table</sys_name><sys_overrides/><sys_package display_value="Human Resource" source="x_1059484_hr">9e3c8e7747723510d7f652e1d16d4372</sys_package><sys_policy/><sys_scope display_value="Human Resource">9e3c8e7747723510d7f652e1d16d4372</sys_scope><sys_update_name>sys_app_application_da570e74470ff510d7f652e1d16d43b4</sys_update_name><sys_updated_by>jahmellaw</sys_updated_by><sys_updated_on>2023-12-09 05:11:41</sys_updated_on><title>My New Test Table</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>-1598343904</payload_hash>
+        <record_name>My New Test Table</record_name>
+        <reverted_from/>
+        <source>888dceb747723510d7f652e1d16d4315</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2023-12-09 05:11:41</sys_created_on>
+        <sys_id>16570e74470ff510d7f652e1d16d43b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c4cfd0c1a0000001</sys_recorded_at>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2023-12-09 05:11:41</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>5a570e74460ff510086901dc0535a1b6</update_guid>
+        <update_guid_history>5a570e74460ff510086901dc0535a1b6:-1598343904</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="My New Test Table">436a4278470ff510d7f652e1d16d4320</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2023-12-09 05:25:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>3bd54a30f96345a086d59830a238a400</sys_id>
+        <sys_metadata>da570e74470ff510d7f652e1d16d43b4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My New Test Table</sys_name>
+        <sys_package display_value="Human Resource" source="x_1059484_hr">9e3c8e7747723510d7f652e1d16d4372</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">9e3c8e7747723510d7f652e1d16d4372</sys_scope>
+        <sys_scope_delete display_value="">4ded03d3fa1a4ef8a652de353e64d990</sys_scope_delete>
+        <sys_update_name>sys_app_application_da570e74470ff510d7f652e1d16d43b4</sys_update_name>
+        <sys_update_version display_value="sys_app_application_da570e74470ff510d7f652e1d16d43b4">16570e74470ff510d7f652e1d16d43b7</sys_update_version>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2023-12-09 05:25:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
