@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>location</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Populate Location</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   var ga = new GlideAjax('hrUtility'); // HelloWorld is the script include class 
+ga.addParam('sysparm_name','getLocation'); // helloWorld is the script include method 
+ga.addParam('sysparm_user_name',g_form.getValue('requested_by')); // Set parameter sysparm_user_name to 'Bob' 
+ga.getXML(userLocation);  /* Call HelloWorld.helloWorld() with the parameter sysparm_user_name set to 'Bob' 
+      and use the callback function HelloWorldParse() to return the result when ready */
+
+// the callback function for returning the result from the server-side code
+function userLocation(response) {  
+   var result = response.responseXML.documentElement.getAttribute("answer"); 
+    alert(result);
+	
+	g_form.setValue('location', result);
+}
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2024-01-04 19:41:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f57ef65547677110d7f652e1d16d43da</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Populate Location</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Human Resource" source="x_1059484_hr">9e3c8e7747723510d7f652e1d16d4372</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">9e3c8e7747723510d7f652e1d16d4372</sys_scope>
+        <sys_update_name>sys_script_client_f57ef65547677110d7f652e1d16d43da</sys_update_name>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2024-01-04 19:49:34</sys_updated_on>
+        <table>x_1059484_hr_human_resource</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Human Resource">9e3c8e7747723510d7f652e1d16d4372</application>
+        <file_path/>
+        <instance_id>515879d2dbbe39d005ef17291396199e</instance_id>
+        <instance_name>dev230749</instance_name>
+        <name>sys_script_client_f57ef65547677110d7f652e1d16d43da</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;location&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Populate Location&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   var ga = new GlideAjax('hrUtility'); // HelloWorld is the script include class 
+ga.addParam('sysparm_name','getLocation'); // helloWorld is the script include method 
+ga.addParam('sysparm_user_name',g_form.getValue('requested_by')); // Set parameter sysparm_user_name to 'Bob' 
+ga.getXML(userLocation);  /* Call HelloWorld.helloWorld() with the parameter sysparm_user_name set to 'Bob' 
+      and use the callback function HelloWorldParse() to return the result when ready */
+
+// the callback function for returning the result from the server-side code
+function userLocation(response) {  
+   var result = response.responseXML.documentElement.getAttribute("answer"); 
+    alert(result);
+	
+	g_form.setValue('location', result);
+}
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;jahmellaw&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-04 19:41:58&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;f57ef65547677110d7f652e1d16d43da&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Populate Location&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Human Resource" source="x_1059484_hr"&gt;9e3c8e7747723510d7f652e1d16d4372&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Human Resource"&gt;9e3c8e7747723510d7f652e1d16d4372&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_f57ef65547677110d7f652e1d16d43da&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;jahmellaw&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-04 19:49:34&lt;/sys_updated_on&gt;&lt;table&gt;x_1059484_hr_human_resource&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1386668791</payload_hash>
+        <record_name>Populate Location</record_name>
+        <reverted_from/>
+        <source>888dceb747723510d7f652e1d16d4315</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2024-01-04 19:49:34</sys_created_on>
+        <sys_id>e7998b5d47677110d7f652e1d16d434a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18cd6061d6b0000001</sys_recorded_at>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2024-01-04 19:49:34</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>af998b5d7f677110b2f8a83b3ea7d249</update_guid>
+        <update_guid_history>af998b5d7f677110b2f8a83b3ea7d249:1386668791,d8e78b5d4c677110afb657013058196a:-675458440</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2024-01-04 19:57:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>07097271be0b4ccc97174ad8df1f3a10</sys_id>
+        <sys_metadata>f57ef65547677110d7f652e1d16d43da</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Populate Location</sys_name>
+        <sys_package display_value="Human Resource" source="x_1059484_hr">9e3c8e7747723510d7f652e1d16d4372</sys_package>
+        <sys_parent display_value="Human Resource">7f31278c47077510d7f652e1d16d43de</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">9e3c8e7747723510d7f652e1d16d4372</sys_scope>
+        <sys_scope_delete display_value="">4ded03d3fa1a4ef8a652de353e64d990</sys_scope_delete>
+        <sys_update_name>sys_script_client_f57ef65547677110d7f652e1d16d43da</sys_update_name>
+        <sys_update_version display_value="sys_script_client_f57ef65547677110d7f652e1d16d43da">e7998b5d47677110d7f652e1d16d434a</sys_update_version>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2024-01-04 19:57:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

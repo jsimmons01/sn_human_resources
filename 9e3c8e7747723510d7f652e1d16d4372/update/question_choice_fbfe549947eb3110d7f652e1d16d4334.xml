@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>300</order>
+        <published_ref/>
+        <question display_value="Type">8fcd5c5947eb3110d7f652e1d16d43fc</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2024-01-04 07:42:40</sys_created_on>
+        <sys_id>fbfe549947eb3110d7f652e1d16d4334</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Payroll</sys_name>
+        <sys_package display_value="Human Resource" source="x_1059484_hr">9e3c8e7747723510d7f652e1d16d4372</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">9e3c8e7747723510d7f652e1d16d4372</sys_scope>
+        <sys_update_name>question_choice_fbfe549947eb3110d7f652e1d16d4334</sys_update_name>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2024-01-04 09:51:37</sys_updated_on>
+        <text>Payroll</text>
+        <value>payroll</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=fbfe549947eb3110d7f652e1d16d4334"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>fbfe549947eb3110d7f652e1d16d4334</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2024-01-04 07:24:19</sys_created_on>
+        <sys_id>ba0f94d947eb3110d7f652e1d16d430c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2024-01-04 07:24:19</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>fbfe549947eb3110d7f652e1d16d4334</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2024-01-04 07:24:19</sys_created_on>
+        <sys_id>320f94d947eb3110d7f652e1d16d430c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2024-01-04 07:24:19</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>
