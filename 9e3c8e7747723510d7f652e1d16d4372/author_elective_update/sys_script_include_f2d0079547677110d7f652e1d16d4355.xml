@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1059484_hr.getType</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>getType</name>
+        <script><![CDATA[var getType = Class.create();
+getType.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    type: 'getType'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2024-01-04 19:12:19</sys_created_on>
+        <sys_id>f2d0079547677110d7f652e1d16d4355</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>getType</sys_name>
+        <sys_package display_value="Human Resource" source="x_1059484_hr">9e3c8e7747723510d7f652e1d16d4372</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Human Resource">9e3c8e7747723510d7f652e1d16d4372</sys_scope>
+        <sys_update_name>sys_script_include_f2d0079547677110d7f652e1d16d4355</sys_update_name>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2024-01-04 19:12:19</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Human Resource">9e3c8e7747723510d7f652e1d16d4372</application>
+        <file_path/>
+        <instance_id>515879d2dbbe39d005ef17291396199e</instance_id>
+        <instance_name>dev230749</instance_name>
+        <name>sys_script_include_f2d0079547677110d7f652e1d16d4355</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1059484_hr.getType&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;getType&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var getType = Class.create();
+getType.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    type: 'getType'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;jahmellaw&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-04 19:12:19&lt;/sys_created_on&gt;&lt;sys_id&gt;f2d0079547677110d7f652e1d16d4355&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;getType&lt;/sys_name&gt;&lt;sys_package display_value="Human Resource" source="x_1059484_hr"&gt;9e3c8e7747723510d7f652e1d16d4372&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Human Resource"&gt;9e3c8e7747723510d7f652e1d16d4372&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_f2d0079547677110d7f652e1d16d4355&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;jahmellaw&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-04 19:12:19&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1165980889</payload_hash>
+        <record_name>getType</record_name>
+        <reverted_from/>
+        <source>888dceb747723510d7f652e1d16d4315</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2024-01-04 19:12:20</sys_created_on>
+        <sys_id>8a11031947677110d7f652e1d16d4372</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18cd5e4075f0000001</sys_recorded_at>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2024-01-04 19:12:20</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>ce11031907677110e291b86a501c9371</update_guid>
+        <update_guid_history>ce11031907677110e291b86a501c9371:1165980889</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2024-01-04 19:13:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>07ec96924b0d45eb811318e7492918a1</sys_id>
+        <sys_metadata>f2d0079547677110d7f652e1d16d4355</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>getType</sys_name>
+        <sys_package display_value="Human Resource" source="x_1059484_hr">9e3c8e7747723510d7f652e1d16d4372</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Human Resource">9e3c8e7747723510d7f652e1d16d4372</sys_scope>
+        <sys_scope_delete display_value="">4ded03d3fa1a4ef8a652de353e64d990</sys_scope_delete>
+        <sys_update_name>sys_script_include_f2d0079547677110d7f652e1d16d4355</sys_update_name>
+        <sys_update_version display_value="sys_script_include_f2d0079547677110d7f652e1d16d4355">8a11031947677110d7f652e1d16d4372</sys_update_version>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2024-01-04 19:13:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

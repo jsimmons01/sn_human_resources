@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>300</order>
+        <published_ref/>
+        <question display_value="Type">8fcd5c5947eb3110d7f652e1d16d43fc</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2024-01-04 07:23:48</sys_created_on>
+        <sys_id>d4ee549947eb3110d7f652e1d16d432e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HR</sys_name>
+        <sys_package display_value="Human Resource" source="x_1059484_hr">9e3c8e7747723510d7f652e1d16d4372</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">9e3c8e7747723510d7f652e1d16d4372</sys_scope>
+        <sys_update_name>question_choice_d4ee549947eb3110d7f652e1d16d432e</sys_update_name>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2024-01-04 07:23:48</sys_updated_on>
+        <text>HR</text>
+        <value>hr</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=d4ee549947eb3110d7f652e1d16d432e"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>d4ee549947eb3110d7f652e1d16d432e</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2024-01-04 07:23:48</sys_created_on>
+        <sys_id>47ee149947eb3110d7f652e1d16d4387</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2024-01-04 07:23:48</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>d4ee549947eb3110d7f652e1d16d432e</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2024-01-04 07:23:48</sys_created_on>
+        <sys_id>cbee149947eb3110d7f652e1d16d4386</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2024-01-04 07:23:48</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Human Resource">9e3c8e7747723510d7f652e1d16d4372</application>
+        <file_path/>
+        <instance_id>515879d2dbbe39d005ef17291396199e</instance_id>
+        <instance_name>dev230749</instance_name>
+        <name>question_choice_d4ee549947eb3110d7f652e1d16d432e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><misc>0</misc><order>300</order><published_ref/><question display_value="Type">8fcd5c5947eb3110d7f652e1d16d43fc</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>jahmellaw</sys_created_by><sys_created_on>2024-01-04 07:23:48</sys_created_on><sys_id>d4ee549947eb3110d7f652e1d16d432e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>HR</sys_name><sys_package display_value="Human Resource" source="x_1059484_hr">9e3c8e7747723510d7f652e1d16d4372</sys_package><sys_policy/><sys_scope display_value="Human Resource">9e3c8e7747723510d7f652e1d16d4372</sys_scope><sys_update_name>question_choice_d4ee549947eb3110d7f652e1d16d432e</sys_update_name><sys_updated_by>jahmellaw</sys_updated_by><sys_updated_on>2024-01-04 07:23:48</sys_updated_on><text>HR</text><value>hr</value></question_choice><fx_price action="delete_multiple" query="id=d4ee549947eb3110d7f652e1d16d432e"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>misc</field><id>d4ee549947eb3110d7f652e1d16d432e</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>jahmellaw</sys_created_by><sys_created_on>2024-01-04 07:23:48</sys_created_on><sys_id>47ee149947eb3110d7f652e1d16d4387</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>jahmellaw</sys_updated_by><sys_updated_on>2024-01-04 07:23:48</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_misc</field><id>d4ee549947eb3110d7f652e1d16d432e</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>jahmellaw</sys_created_by><sys_created_on>2024-01-04 07:23:48</sys_created_on><sys_id>cbee149947eb3110d7f652e1d16d4386</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>jahmellaw</sys_updated_by><sys_updated_on>2024-01-04 07:23:48</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price></record_update>]]></payload>
+        <payload_hash>1627467660</payload_hash>
+        <record_name>HR</record_name>
+        <reverted_from/>
+        <source>888dceb747723510d7f652e1d16d4315</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2024-01-04 07:23:48</sys_created_on>
+        <sys_id>4beed4d947eb3110d7f652e1d16d4331</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18cd35b57fc0000001</sys_recorded_at>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2024-01-04 07:23:48</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>8feed4d929eb31104e952ae39b3aca30</update_guid>
+        <update_guid_history>8feed4d929eb31104e952ae39b3aca30:1627467660</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="HR">771f7c1d476f3110d7f652e1d16d43f2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2024-01-04 09:44:28</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>1147f7ea52c844aa812fd89ca33d8804</sys_id>
+        <sys_metadata>d4ee549947eb3110d7f652e1d16d432e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HR</sys_name>
+        <sys_package display_value="Human Resource" source="x_1059484_hr">9e3c8e7747723510d7f652e1d16d4372</sys_package>
+        <sys_parent display_value="type">8fcd5c5947eb3110d7f652e1d16d43fc</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">9e3c8e7747723510d7f652e1d16d4372</sys_scope>
+        <sys_scope_delete display_value="">4ded03d3fa1a4ef8a652de353e64d990</sys_scope_delete>
+        <sys_update_name>question_choice_d4ee549947eb3110d7f652e1d16d432e</sys_update_name>
+        <sys_update_version display_value="question_choice_d4ee549947eb3110d7f652e1d16d432e">4beed4d947eb3110d7f652e1d16d4331</sys_update_version>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2024-01-04 09:44:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
