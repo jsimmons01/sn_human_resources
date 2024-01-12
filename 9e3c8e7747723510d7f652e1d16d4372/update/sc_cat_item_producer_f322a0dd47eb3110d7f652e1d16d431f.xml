@@ -72,9 +72,12 @@
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <sc_template/>
-        <script><![CDATA[current.requested_by = producer.requested_by;
-current.requested_for = producer.requested_for;
-current.short_description = producer.short_description;
+        <script><![CDATA[current.type = 'confidential';
+current.contact_type = 'self-service';
+current.u_source = 'f322a0dd47eb3110d7f652e1d16d431f';
+
+current.assignment_group = 'fedbfa7447233110d7f652e1d16d4325';
+
 
 ]]></script>
         <short_description/>
@@ -85,14 +88,14 @@ current.short_description = producer.short_description;
         <sys_created_by>jahmellaw</sys_created_by>
         <sys_created_on>2024-01-04 07:39:47</sys_created_on>
         <sys_id>f322a0dd47eb3110d7f652e1d16d431f</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Confidential Inquiry</sys_name>
         <sys_package display_value="Human Resource" source="x_1059484_hr">9e3c8e7747723510d7f652e1d16d4372</sys_package>
         <sys_policy/>
         <sys_scope display_value="Human Resource">9e3c8e7747723510d7f652e1d16d4372</sys_scope>
         <sys_update_name>sc_cat_item_producer_f322a0dd47eb3110d7f652e1d16d431f</sys_update_name>
         <sys_updated_by>jahmellaw</sys_updated_by>
-        <sys_updated_on>2024-01-05 02:03:27</sys_updated_on>
+        <sys_updated_on>2024-01-12 04:39:20</sys_updated_on>
         <table_name>x_1059484_hr_human_resource</table_name>
         <taxonomy_topic/>
         <template/>

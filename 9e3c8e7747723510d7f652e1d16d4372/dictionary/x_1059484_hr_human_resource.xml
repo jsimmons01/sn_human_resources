@@ -4,8 +4,8 @@
         <element attributes="edge_encryption_enabled=true" label="Source" max_length="40" name="source" reference="sc_cat_item" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Type" max_length="40" name="type" type="string">
             <choice>
+                <element inactive_on_update="false" label="Confidential" value="confidential"/>
                 <element inactive_on_update="false" label="Benefits" sequence="0" value="benefits"/>
-                <element inactive_on_update="false" label="Confidential" sequence="1" value="confidential"/>
                 <element inactive_on_update="false" label="General HR" sequence="2" value="general hr"/>
                 <element inactive_on_update="false" label="Payroll" sequence="3" value="payroll"/>
                 <element inactive_on_update="false" label="Training" sequence="4" value="training"/>
