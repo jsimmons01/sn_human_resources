@@ -72,24 +72,24 @@
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <sc_template/>
-        <script><![CDATA[var type = producer.type;
-current.type = type;
+        <script><![CDATA[ 
+current.type = producer.type;
 current.contact_type = 'self-service';
 current.u_source = '3c3c4bf447633110d7f652e1d16d4300';
 
-var assignmentType = '24eb3e3447233110d7f652e1d16d43cb9';
+var assignType = ' ';
 
-if (type == 'Benefits') {
-    hrAssignment = 'c7cbba7447233110d7f652e1d16d4319';
-} else if (type == 'Payroll') {
-    hrAssignment = 'a2eb3e3447233110d7f652e1d16d4378';
-} else if(type == 'Training'){
-    hrAssignment = '85fbbe3447233110d7f652e1d16d430b';
+ if (producer.type == 'benefits') {
+    assignType = 'c7cbba7447233110d7f652e1d16d4319';
+} else if (producer.type == 'payroll') {
+    assignType = 'a2eb3e3447233110d7f652e1d16d4378';
+} else if (producer.type == 'training') {
+    assignType = '85fbbe3447233110d7f652e1d16d430b';
+} else {
+	assignType = '24eb3e3447233110d7f652e1d16d43cb'
 }
 
-current.assignment_group = assignmentType;
-
-]]></script>
+current.assignment_group = assignType;]]></script>
         <short_description/>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
@@ -98,14 +98,14 @@ current.assignment_group = assignmentType;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-03 06:45:04</sys_created_on>
         <sys_id>3c3c4bf447633110d7f652e1d16d4300</sys_id>
-        <sys_mod_count>47</sys_mod_count>
+        <sys_mod_count>74</sys_mod_count>
         <sys_name>HR General Inquiry </sys_name>
         <sys_package display_value="Human Resource" source="x_1059484_hr">9e3c8e7747723510d7f652e1d16d4372</sys_package>
         <sys_policy/>
         <sys_scope display_value="Human Resource">9e3c8e7747723510d7f652e1d16d4372</sys_scope>
         <sys_update_name>sc_cat_item_producer_3c3c4bf447633110d7f652e1d16d4300</sys_update_name>
         <sys_updated_by>jahmellaw</sys_updated_by>
-        <sys_updated_on>2024-01-05 06:18:58</sys_updated_on>
+        <sys_updated_on>2024-01-12 04:00:02</sys_updated_on>
         <table_name>x_1059484_hr_human_resource</table_name>
         <taxonomy_topic/>
         <template/>
