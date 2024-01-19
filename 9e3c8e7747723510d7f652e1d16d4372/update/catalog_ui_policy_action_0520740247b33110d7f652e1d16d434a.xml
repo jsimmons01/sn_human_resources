@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Employee Seperation">e8935d4047777110d7f652e1d16d4398</catalog_item>
+        <catalog_variable>IO:da868cd447ff7110d7f652e1d16d4384</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-19 02:51:00</sys_created_on>
+        <sys_id>0520740247b33110d7f652e1d16d434a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>seperation_date</sys_name>
+        <sys_package display_value="Human Resource" source="x_1059484_hr">9e3c8e7747723510d7f652e1d16d4372</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">9e3c8e7747723510d7f652e1d16d4372</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_0520740247b33110d7f652e1d16d434a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-19 02:51:00</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Date is only visible when speration type is termination or resignation">49be6c8e47733110d7f652e1d16d431f</ui_policy>
+        <variable>seperation_date</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>
