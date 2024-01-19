@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Employee Seperation">e8935d4047777110d7f652e1d16d4398</sc_cat_item>
+        <sc_category display_value="Human Resource">901d4f7447633110d7f652e1d16d4338</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>jahmellaw</sys_created_by>
+        <sys_created_on>2024-01-13 00:18:46</sys_created_on>
+        <sys_id>b8f3d18047777110d7f652e1d16d4386</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Human Resource.Employee Seperation</sys_name>
+        <sys_package display_value="Human Resource" source="x_1059484_hr">9e3c8e7747723510d7f652e1d16d4372</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">9e3c8e7747723510d7f652e1d16d4372</sys_scope>
+        <sys_update_name>sc_cat_item_category_b8f3d18047777110d7f652e1d16d4386</sys_update_name>
+        <sys_updated_by>jahmellaw</sys_updated_by>
+        <sys_updated_on>2024-01-13 00:18:46</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>
