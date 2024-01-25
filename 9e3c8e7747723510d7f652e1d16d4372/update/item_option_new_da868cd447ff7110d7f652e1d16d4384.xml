@@ -41,13 +41,13 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>seperation_date</name>
+        <name>separation_date</name>
         <order>700</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Seperation Date</question_text>
+        <question_text>Separation Date</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -77,14 +77,14 @@
         <sys_created_by>jahmellaw</sys_created_by>
         <sys_created_on>2024-01-13 13:21:44</sys_created_on>
         <sys_id>da868cd447ff7110d7f652e1d16d4384</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Seperation Date</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Separation Date</sys_name>
         <sys_package display_value="Human Resource" source="x_1059484_hr">9e3c8e7747723510d7f652e1d16d4372</sys_package>
         <sys_policy/>
         <sys_scope display_value="Human Resource">9e3c8e7747723510d7f652e1d16d4372</sys_scope>
         <sys_update_name>item_option_new_da868cd447ff7110d7f652e1d16d4384</sys_update_name>
-        <sys_updated_by>jahmellaw</sys_updated_by>
-        <sys_updated_on>2024-01-13 13:42:45</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-25 02:49:15</sys_updated_on>
         <table/>
         <tooltip/>
         <type>9</type>

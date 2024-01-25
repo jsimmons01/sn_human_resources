@@ -22,15 +22,21 @@
         return;
     }
 
-    var currentDate = new Date();
-    var seperationDate = new Date(g_form.getValue('seperation_date'));
+    //var currentDate = new Date();
+    //var tomorrow = new Date(currentDate.setDate(currentDate.getDate()+ 1));
+    var gdt = new GlideDateTime("2011-01-01 12:00:00");
+    
+    var separationDate = g_form.getValue('separation_date');
 
-    if (seperationDate.getDate() < currentDate.getDate() - 1) {
-        g_form.addErrorMessage('Seperation date should be in the future');
-        g_form.clearValue('seperation_date');
-    }else{
-		return g_form.seperation_date;
-	}
+    g_form.addInfoMessage('Separation Date is: ' + separationDate + '' + 'Tomorrow is: ' + gdt);
+
+
+    // if (separationDate < tomorrow) {
+    //     g_form.addErrorMessage('Separation date should be in the future');
+    //     g_form.clearValue('separation_date');
+    // } else {
+    //     return g_form.separation_date;
+    // }
 
 
 
@@ -43,7 +49,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cb55166447b7f110d7f652e1d16d4302</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_name>Date validation </sys_name>
         <sys_overrides/>
         <sys_package display_value="Human Resource" source="x_1059484_hr">9e3c8e7747723510d7f652e1d16d4372</sys_package>
@@ -51,7 +57,7 @@
         <sys_scope display_value="Human Resource">9e3c8e7747723510d7f652e1d16d4372</sys_scope>
         <sys_update_name>catalog_script_client_cb55166447b7f110d7f652e1d16d4302</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-19 03:57:36</sys_updated_on>
+        <sys_updated_on>2024-01-25 04:22:39</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
